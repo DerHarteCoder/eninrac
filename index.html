@@ -1,16 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="./src/output.css" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-    
-    <h1 class="text-3xl font-bold underline text-orange-700">
-        Hello world!
-      </h1>
-      <h2>I love you Divya baby</h2>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore the world with ease! Discover exotic destinations, book affordable flights, and find the perfect accommodations for your dream vacation. From serene beaches to bustling cities, our website offers everything you need to plan your next adventure. Start your journey today and make unforgettable memories!">
+        <meta name="Keywords" content="travel, flights, destinations, hotels, vacation, booking, explore, adventure, accommodations, flights booking, travel website, holiday, tourism">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="./dist/output.css" rel="stylesheet">
+        <title>Jadoo</title>
+    </head>
+    <body class="pl-36 mt-12 px-40">
+        <!--Header-->
+        <nav class="flex gap-14 justify-around">
+            <div  class="flex">
+                <img class=" flex" src="./src/assets/img/Logo.svg" alt="jadoo logo"/>
+            </div>
+            <ul class=" justify-between flex gap-14 font-sans"> 
+                <li> <a class="active" href="#home">Destinations</a></li>
+                <li> <a href="#Hotel">Hotel</a></li>
+                <li> <a href="#Flights">Flights</a></li>
+                <li> <a href="#Booking">Booking</a></li>
+                <li> <a href="#Login">Login</a></li>
+                <li><button class=" p-2 border-2 rounded-sm border-black">Sign up</button></li>
+                <li> <a href="#EN">EN﹀</a> </li>
+            </ul>
+        </nav>
+        <!--Main-->
+        <section class="flex ">
+            <div class="flex-col flex gap-y-3">
+                    <p class="font-poppins font-extrabold mt-36 text-[#df6951]">Best Destinations around the world</p>
+                    <h1 class="font-bold text-7xl text-[#181e4b]">Travel, enjoy and live a new and full life</h1>
+                    <p class="font-poppins text-base">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening.Park gate sell they west hard for the. </p>
+                <div class="flex gap-x-6">
+                <button class="border-2 rounded p-5 bg-[#f1a501] font-bold  text-white">find out more!</button>         
+                <button class="flex rounded items-center gap-x-2 px-2"><img src="./src/assets/img/Play button (1).svg"/><p>Play Demo</p> </button>
+                </div>
+            </div>
+            <img  class="flex pl-" src="./src/assets/img/Traveller 1.svg" alt="traveller"/>
+        </section>
+        <main class="flex flex-col gap-14 items-center">
+            <!-- Category -->
+            <section class="flex flex-col items-center gap-20 mt-10">
+                <div class="flex flex-col gap-y-2 items-center">
+                    <p class="text-lg">Category</p>
+                    <h2 class="font-bold text-5xl text-[#14183E]">We Offer Best</h2>
+                </div>
+                <div class="flex gap-24">
+                    <div class="flex flex-col w-48 h-56 items-center gap-y-4">
+                        <img src="./src/assets/img/Satellite.svg" class="h-16 w-16">
+                        <h4 class="text-xl">Calculated Weather</h4>
+                        <p class="text-center">Built Wicket longer admire do barton vanity itself do in it.</p>
+                    </div>
+                    <div class="flex flex-col w-48 h-56 items-center gap-y-4">
+                        <img src="./src/assets/img/Plane.svg" class="h-16 w-16">
+                        <h4 class="text-xl">Best Flights</h4>
+                        <p class="text-center">Engrossed listening. Park gate sell they west hard for the.</p>
+                    </div>
+                    <div class="flex flex-col w-48 h-56 items-center gap-y-4">
+                        <img src="./src/assets/img/mic.png" class="h-16 w-16">
+                        <h4 class="text-xl">Local Events</h4>
+                        <p class="text-center">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
+                    </div>
+                    <div class="flex flex-col w-48 h-56 items-center gap-y-4">
+                        <img src="./src/assets/img/Gear.svg" class="h-16 w-16">
+                        <h4 class="text-xl">Customization</h4>
+                        <p class="text-center">We deliver outsourced aviation services for military customers</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Destinations -->
+            <section class="flex flex-col items-center gap-20 mt-10">
+                <div class="flex flex-col gap-y-2 items-center">
+                    <p class="text-lg">Top Selling</p>
+                    <h2 class="font-bold text-5xl text-[#14183E]">Top Destinations</h2>
+                </div>
+                <div class="flex gap-x-10">
+                    <img src="./src/assets/img/DestinationOne.svg" class="w-72 h-96 cursor-pointer">
+                    <img src="./src/assets/img/DestinationTwo.svg" class="w-72 h-96 cursor-pointer">
+                    <img src="./src/assets/img/DestinationThree.svg" class="w-72 h-96 cursor-pointer">
+                </div>
+            </section>
+
+            <!-- Booking -->
+            <section class="flex gap-4 mt-10">
+                <div class="flex flex-col items-start w-[500px] gap-y-7">
+                    <div class="flex flex-col gap-y-2">
+                        <p class="text-lg">Easy and Fast</p>
+                        <h2 class="font-bold text-5xl text-[#14183E]">Book your next trip in 3 easy steps</h2>
+                    </div>            
+                    <div class="flex gap-x-4">
+                        <img src="./src/assets/img/Yellow-border.svg">
+                        <div class="flex flex-col">
+                            <p class="font-bold">Choose</p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-x-4">
+                        <img src="./src/assets/img/Red-border.svg">
+                        <div class="flex flex-col">
+                            <p class="font-bold">Make Payment</p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-x-4">
+                        <img src="./src/assets/img/Blue-border.svg">
+                        <div class="flex flex-col">
+                            <p class="font-bold">Reach Airport on Selected Date</p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cursor-pointer">
+                    <img src="./src/assets/img/trip-to-paris.png">
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="flex gap-10 mt-10">
+                <div class="flex flex-col items-start gap-y-2">
+                    <p class="text-lg">Testimonials</p>
+                    <h2 class="font-bold text-5xl text-[#14183E]">What people say<br> about Us.</h2>
+                </div>
+                <div class="flex flex-col gap-y-4 w-[540px]">
+                    <div class="flex gap-x-2">
+                        <img src="./src/assets/img/person.png">
+                        <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                    </div>
+                    <div class="flex">
+                        <p>Mike Taylor</p>
+                        <p>Lahore, Pakistan</p>
+                    </div>
+                    <div class="flex">
+                        <p>Chris Thomas</p>
+                        <p>CEO of Red Button</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Logos -->
+            <section class="flex gap-12 justify-center mt-10">
+                <img src="./src/assets/img/logo-1.png" class="h-32 w-32">
+                <img src="./src/assets/img/logo-2.png" class="h-32 w-32">
+                <img src="./src/assets/img/logo-3.png" class="h-32 w-32">
+                <img src="./src/assets/img/image 30.svg" class="h-32 w-32">
+                <img src="./src/assets/img/image 31.svg" class="h-32 w-32">
+            </section>
+
+            <!--Newsletter  -->
+            <section class="bg-[#DFD7F9] py-4 px-20 rounded-md flex flex-col gap-y-10 mt-10">
+                <img src="./src/assets/img/telegram.svg" class="h-10 w-10 relative top-[-50px] left-[720px]">
+                <p class="text-3xl text-center">Subscribe to get information, latest news and other <br> interesting offers about Cobham</p>
+                <form class="flex gap-x-4 justify-center">
+                    <input type="text" placeholder="Your" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                    <button class="bg-[#FF946D] text-white rounded-lg p-4">Subscribe</button>
+                </form>
+            </section>
+
+            <!-- Footer -->
+            <footer class="flex gap-x-20 p-5 mt-10">
+                <div class="flex flex-col">
+                    <h2 class="font-bold">Jadoo</h2>
+                    <p class="text-xs">Book your trip in minute,<br> get full Control for much longer.</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <h2 class="font-bold">Company</h2>
+                    <div class="flex flex-col">
+                        <a>About</a>
+                        <a>Carriers</a>
+                        <a>Mobile</a>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <h2 class="font-bold">Contact</h2>
+                    <div class="flex flex-col">
+                        <a>Help/FAQ</a>
+                        <a>Press</a>
+                        <a>Affilates</a>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <h2 class="font-bold">More</h2>
+                    <div class="flex flex-col">
+                        <a>Airlinefees</a>
+                        <a>Airline</a>
+                        <a>Low fare tips</a>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 items-center">
+                    <div class="flex gap-2">
+                        <a class="cursor-pointer"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="cursor-pointer"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="cursor-pointer"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <p>Discover our app</p>
+                    <div class="flex gap-2">
+                        <img src="./src/assets/img/Google Play.svg" class="cursor-pointer">
+                        <img src="./src/assets/img/Play Store.svg" class="cursor-pointer">
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        
+    </body>
 </html>
